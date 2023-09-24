@@ -1,0 +1,44 @@
+body::before{
+    display: block;
+    content: ''; 
+    height: 70px;
+}
+
+@media(min-width: 768px;){
+    .news-input{
+        width: 50%;
+    }
+}
+.navbar ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.col-md:hover{
+	box-shadow:0 0 20px 0px rgba(0,0,0,0.2); 
+}
+@media(min-width:768px;){
+	width: 50%;
+}
+.field{
+	padding-left: 15px;
+	height: 400px;
+	width: 350px;
+	background-color: gray;
+	border-bottom-right-radius:300px;
+	border-bottom: dotted 10px dodgerblue;
+	border-right:dotted 10px dodgerblue;
+	border-top: double 10px dodgerblue;
+	border-left: double dodgerblue 10px;
+	
+}
+.form{
+	padding-top: 15px;
+}
